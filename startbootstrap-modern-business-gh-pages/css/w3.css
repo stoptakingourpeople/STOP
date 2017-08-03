@@ -13,8 +13,8 @@
 .w3-theme-dark {color:#fff !important; background-color:#000000 !important}
 .w3-theme-action {color:#fff !important; background-color:#000000 !important}
 
-.w3-theme {color:#fff !important; background-color:#666666!important}
-.w3-text-theme {color:#000000 !important}
+.w3-theme {color:#fff !important; background-color:#000000 !important}
+.w3-text-theme {color:#FF0000 !important}
 .w3-border-theme {border-color:#000000 !important}
 
 .w3-hover-theme:hover {color:#000 !important; background-color:#ffc107 !important}
