@@ -12,20 +12,20 @@
 <nav class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left w3-center" style="display:none" id="mySidebar">
   <h1 class="w3-xxxlarge w3-text-theme">Side Navigation</h1>
   <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
-  <a href="#" class="w3-bar-item w3-button">Link 1</a>
-  <a href="#" class="w3-bar-item w3-button">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button">Link 3</a>
-  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">About</a>
+  <a href="#" class="w3-bar-item w3-button">Information</a>
+  <a href="#" class="w3-bar-item w3-button">Assistance</a>
+  <a href="#" class="w3-bar-item w3-button">What Can You Do?</a>
 </nav>
 
 <!-- Header -->
 <header class="w3-container w3-theme w3-padding" id="myHeader">
   <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
   <div class="w3-center">
-  <h4>BEAUTIFUL RESPONSIVE WEB SITES</h4>
-  <h1 class="w3-xxxlarge w3-animate-bottom">BUILT WITH W3.CSS</h1>
+  <h4>Human Ttrafficking in D.C</h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom">STOP Taking Our People</h1>
     <div class="w3-padding-32">
-      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">LEARN W3.CSS</button>
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">PLEDGE</button>
     </div>
   </div>
 </header>
@@ -36,18 +36,25 @@
       <header class="w3-container w3-theme-l1"> 
         <span onclick="document.getElementById('id01').style.display='none'"
         class="w3-button w3-display-topright">×</span>
-        <h4>Oh snap! We just showed you a modal..</h4>
-        <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+        <h4>PLEDGE YOUR AWARENESS...</h4>
+        <h5>By clicking this button you pledge to be aware of, and an advocate for the issue of human trafficking in D.C. </h5>
       </header>
       <div class="w3-padding">
-        <p>Cool huh? Ok, enough teasing around..</p>
-        <p>Go to our <a class="w3-btn" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+        <div class="w3-center">
+<body>
+    <script type="text/javascript">
+    var clicks = 0;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+    <button type="button" onClick="onClick()"><a class="w3-button w3-theme">Pledge Your Awareness</button></a>
       </div>
       <footer class="w3-container w3-theme-l1">
-        <p>Modal footer</p>
+        <p>Pledges: <a id="clicks">0</a></p>
       </footer>
     </div>
-</div>
 
 <div class="w3-row-padding w3-center w3-margin-top">
 <div class="w3-third">
