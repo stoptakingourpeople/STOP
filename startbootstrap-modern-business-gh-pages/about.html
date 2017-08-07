@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>About Us</title>
+<title>S.T.O.P</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -11,26 +11,52 @@
 <!-- Side Navigation -->
 <nav class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left w3-center" style="display:none" id="mySidebar">
   <h1 class="w3-xxxlarge w3-text-theme">Side Navigation</h1>
-  <a href="https://stoptakingourpeople.github.io/stop/startbootstrap-modern-business-gh-pages/index.html" class="w3-bar-item w3-button">Home</a>
   <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
+  <a href="https://stoptakingourpeople.github.io/stop/startbootstrap-modern-business-gh-pages/index.html" class="w3-bar-item w3-button">Home</a>
   <a href="https://stoptakingourpeople.github.io/stop/startbootstrap-modern-business-gh-pages/about.html" class="w3-bar-item w3-button">About</a>
-  <a href="#" class="w3-bar-item w3-button">Information</a>
+  <a href="https://stoptakingourpeople.github.io/stop/startbootstrap-modern-business-gh-pages/information.html" class="w3-bar-item w3-button">Information</a>
   <a href="https://stoptakingourpeople.github.io/stop/startbootstrap-modern-business-gh-pages/stories.html" class="w3-bar-item w3-button">Stories</a>
-  <a href="#" class="w3-bar-item w3-button">Assistance</a>
-
+  <a href="https://stoptakingourpeople.github.io/stop/startbootstrap-modern-business-gh-pages/assistance.html" class="w3-bar-item w3-button">Assistance</a>
 </nav>
 
 <!-- Header -->
 <header class="w3-container w3-theme w3-padding" id="myHeader">
   <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
   <div class="w3-center">
-  <h4>Human Trafficking in D.C</h4>
+  <h4>Human Trafficking</h4>
   <h1 class="w3-xxxlarge w3-animate-bottom">STOP Taking Our People</h1>
-    <div class="w3-padding-32">
+      <div class="w3-padding-32">
       <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">PLEDGE</button>
     </div>
   </div>
 </header>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">×</span>
+        <h4>Pledge to the cause!</h4>
+      </header>
+      <div class="w3-padding">
+        <p>By clicking this button you pledge to be aware of, and an advocate for the issue of human trafficking in D.C. </p>
+        <body>
+    <script type="text/javascript">
+    var clicks = 0;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+    <button type="button" onClick="onClick()"><a>Pledge Your Awareness</button></a>
+      </div>
+      </div>
+       <footer class="w3-container w3-theme-l1">
+        <p style="text-align: center">Pledges: <a id="clicks">0</a></p>
+      </footer>
+    </div>
+</div>
 
 <hr>   
 
